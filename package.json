@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.0",
+    "express": "^4.18.2",
+    "tsx": "^4.4.0",
+    "typescript": "^5.3.2"
+  },
+  "name": "ambientets",
+  "description": "Readme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "esbuild": "^0.18.20",
+    "get-tsconfig": "^4.7.2",
+    "resolve-pkg-maps": "^1.0.0"
+  },
+  "scripts": {
+    "start": "tsx src/server.ts",
+    "start:dev": "tsx watch src/server.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}

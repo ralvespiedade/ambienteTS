@@ -13,7 +13,7 @@ app.use('/locadora', router)
 const port = process.env.PORT || 3333
 
 app.listen(port, () => {
-    console.log(`Server listening on ${port}`)
+    console.log(`Server listening on http://localhost:${port}`)
 })
 
 

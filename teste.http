@@ -1,3 +1,26 @@
 GET http://localhost:3333/locadora/veiculo
 
 ###
+
+POST http://localhost:3333/locadora/veiculo
+Content-Type: application/json
+
+{
+    "nome": "Marea",
+    "marca": "Fiat",
+    "valor": 8000,
+    "portas": 4
+}
+
+###
+
+POST http://localhost:3333/locadora/veiculo
+Content-Type: application/json
+
+{
+    "nome": "Voyage",
+    "marca": "VW",
+    "valor": 32000,
+    "portas": 4
+}
+    
